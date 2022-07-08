@@ -9,6 +9,7 @@
 <style>
     body{
        margin: 0.5%;
+       background-color: aqua;
     }
     #navbar{
         background-color: antiquewhite;
@@ -26,6 +27,13 @@
     a{
         text-decoration: none;
     }
+    button{
+        height: 50px;
+        width: 120px;
+        /* colo */
+        margin: 20px;
+    }
+    
 </style>
 <body>
     <div id="navbar">
@@ -33,6 +41,13 @@
         <div><a href="./login.html">Login</a> </div>
         <div><a href="./signup.html">Signup</a> </div>
     </div>
-    
+    <div id="sort">
+        <button onclick="lh()">Low to High</button>
+        <button onclick="hl()">High to Low</button>
+    </div>
+     <div id="container">
+
+    </div>
 </body>
+<script src="./index.js"></script>
 </html>
